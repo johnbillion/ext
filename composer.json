@@ -1,0 +1,21 @@
+{
+    "name": "johnbillion/ext",
+    "description": "WP-CLI command which checks the existence of PHP extensions needed to run WordPress.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/johnbillion/ext",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Blackbourn",
+            "homepage": "https://johnblackbourn.com/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": ["command.php"]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^1.1.0"
+    }
+}

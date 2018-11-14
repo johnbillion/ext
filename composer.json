@@ -14,8 +14,5 @@
     "prefer-stable": true,
     "autoload": {
         "files": ["command.php"]
-    },
-    "require": {
-        "wp-cli/wp-cli": "^1.1.0"
     }
 }

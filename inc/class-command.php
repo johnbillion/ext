@@ -157,7 +157,6 @@ class Command {
 	protected static function get_recommended_extensions() {
 		return [
 			'exif',
-			'gmagick',
 			'imagick',
 			'ssh2',
 		];
